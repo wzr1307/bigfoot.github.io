@@ -2,7 +2,12 @@
   text-align: center;
   margin: 0 auto;
   width: 300px;
+  background-image: url('assets/images/84f1338748aad4087fdc1b912d8125b8.jpg'); /* Замени 'твоё_изображение.jpg' на реальное имя файла */
+  background-size: cover; /* Масштабирует изображение, чтобы покрыть всю область */
+  background-position: center; /* Выравнивает изображение по центру */
+  /* Если нужно повторить фон, используй background-repeat: repeat; */
 }
+
 
 form {
   margin-top: 20px;
