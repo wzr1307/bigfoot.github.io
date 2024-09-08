@@ -1,9 +1,18 @@
 /* registration.css */
 
 .registration-form {
-    background-color: #333; /* Темно-серый фон */
-    color: #fff; /* Белый цвет текста */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px; /* Для больших экранов */
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .registration-form {
+    width: 100%;
+    padding: 10px;
+  }
 }
