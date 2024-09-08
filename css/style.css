@@ -1,7 +1,7 @@
 .container {
   text-align: center;
   margin: 0 auto;
-  width: 300px;
+  width: 100vh;
   background-image: url('register.jpg'); /* Замени 'твоё_изображение.jpg' на реальное имя файла */
   background-size: cover; /* Масштабирует изображение, чтобы покрыть всю область */
   background-position: center; /* Выравнивает изображение по центру */
