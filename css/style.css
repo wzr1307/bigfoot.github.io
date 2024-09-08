@@ -1,3 +1,14 @@
+.overlay {
+  position: fixed; /* Фиксируем позицию */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Черный цвет с прозрачностью 50% */
+  z-index: 999; /* Устанавливаем высокий z-index, чтобы оверлей был поверх других элементов */
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
