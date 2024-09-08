@@ -1,14 +1,37 @@
 .container {
-  text-align: center;
-  margin: 0 auto;
-  width: 100vh;
-  background-image: url('register.jpg'); /* Замени 'твоё_изображение.jpg' на реальное имя файла */
-  background-size: cover; /* Масштабирует изображение, чтобы покрыть всю область */
-  background-position: center; /* Выравнивает изображение по центру */
-  /* Если нужно повторить фон, используй background-repeat: repeat; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Занимает всю высоту экрана */
 }
 
-
 form {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Ширина формы */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Медиа-запрос для маленьких экранов */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  form {
+    width: 90%;
+  }
 }
