@@ -34,10 +34,10 @@ body {
 .registration-form {
     background-color: #00008b;
     padding: 20px;
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    margin-top: -50px;
+ /*   margin-top: -50px;*/
  /*   height: 300px;*/
 }
 
