@@ -2,22 +2,25 @@
   /*  justify-content: center;  Добавляем для центрирования по горизонтали */
 
  /*   margin: 0;*/
-
+ /*   height: 100vh;  Занимаем всю высоту экрана */
 body {
     background-color: #16082f;
     color: #fff;
     display: flex;
+    justify-content: center;
     align-items: center;
- /*   height: 100vh;  Занимаем всю высоту экрана */
     overflow: hidden;
 }
-
 
 .registration-form {
     background-color: #00008b;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    /* Поднимаем блок вверх на 50 пикселей (при необходимости) */
+    margin-top: -50px;
 }
+
+
 
 
 .form-group {
