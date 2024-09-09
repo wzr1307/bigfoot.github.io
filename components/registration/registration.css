@@ -1,6 +1,6 @@
 /* registration.css */
 body {
-    background-color: #1D1E33;
+    background-color: #20214F;
     color: #fff;
     display: flex;
     align-items: center;
@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    background-color: #1E213D;
     max-width: 400px;
     padding: 20px;
     background-color: #fff;
