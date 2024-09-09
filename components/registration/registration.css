@@ -1,6 +1,6 @@
 /* registration.css */
 body {
-    background-color: #000000;
+    background-color: #16082f;
     color: #fff;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ body {
     align-items: center;
     justify-content: center; /* Центрируем по вертикали */
     padding: 20px;
-    background-color: #16082f;
+    background-color: #808080;
 }
 
 .registration-form {
