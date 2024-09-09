@@ -20,25 +20,24 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-*/
 
 .main-container {
     display: flex;
     height: 100vh;
     align-items: center;
-    justify-content: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по вертикали 
     padding: 20px;
     background-color: #808080;
 }
+*/
 
 .registration-form {
     background-color: #00008b;
     padding: 20px;
-    width: 300px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
- /*   margin-top: -50px;*/
- /*   height: 300px;*/
+    margin-top: 20px;
 }
 
 
