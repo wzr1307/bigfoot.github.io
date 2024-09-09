@@ -14,7 +14,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     /* Поднимаем блок вверх на 50 пикселей (при необходимости) */
-    margin-top: 260px;
+    margin-top: 290px;
 }
 
 
@@ -51,7 +51,7 @@ body {
 
 @media (max-width: 767px) {
   .registration-form {
-    width: 100%;
+    width: 80%;
     padding: 10px;
   }
 }
