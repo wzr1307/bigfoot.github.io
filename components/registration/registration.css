@@ -7,6 +7,7 @@ body {
     justify-content: center; /* Добавляем для центрирования по горизонтали */
     height: 100vh; /* Занимаем всю высоту экрана */
     margin: 0;
+    overflow: hidden;
 }
 
 .registration-form {
