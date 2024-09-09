@@ -29,30 +29,26 @@ body {
     align-items: center;
     justify-content: center; /* Центрируем по вертикали */
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #000000;
 }
 
 .registration-form {
     flex-grow: 1;
-    background-color: #fff;
+    background-color: #00008b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    height: 300px;
 }
-
-.additional-block {
-    background-color: #e0e0e0;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-}
-
-
 
 
 .form-group {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
+
+
+
+
 
 .form-label {
     display: block;
