@@ -2,14 +2,24 @@
 body {
     background-color: #002F55;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Добавляем для центрирования по горизонтали */
+    height: 100vh; /* Занимаем всю высоту экрана */
+    margin: 0;
 }
 
 .registration-form {
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 400px; /* Для больших экранов */
-  margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px; /* Для больших экранов */
+    margin: 0 auto;
+}
+
+button {
+    background-color: #4CAF50;
+  /* Остальные стили */
 }
 
 @media (max-width: 767px) {
