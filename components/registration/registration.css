@@ -28,6 +28,18 @@ body {
     margin-top: 154px; /*число выше, блок ниже*/
 }
 
+.slide-container {
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide-right {
+    transform: translateX(100%);
+}
+
+.slide-left {
+    transform: translateX(0);
+}
+
 
 
 
