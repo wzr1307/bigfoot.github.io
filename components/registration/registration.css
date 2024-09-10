@@ -29,11 +29,9 @@ body {
 
 .form-input {
     background: rgba(255,255,255,.2);
- /*   height: 100px; */
     width: 80%; /* Уменьшаем ширину полей */
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 20px;
+    margin-top: 150px; /*высота. число выше, блок ниже*/
 }
 
 
