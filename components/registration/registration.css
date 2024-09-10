@@ -31,7 +31,8 @@ body {
     background: rgba(255,255,255,.2);
     width: 80%; /* Уменьшаем ширину полей */
     border-radius: 20px;
-    margin-top: 150px; /*высота. число выше, блок ниже*/
+    border: none;
+  /*  margin-top: 150px; высота. число выше, блок ниже*/
 }
 
 
