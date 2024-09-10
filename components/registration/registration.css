@@ -20,7 +20,7 @@ body {
         linear-gradient(
             rgba(35,43,85,0.75),
             rgba(35,43,85,0.95));
-    width: 400px;/*430*/
+    width: 360px;/*430*/
     height: 320px; /*число выше, блок тянется вниз*/
     border-radius: 5px;/*скругленность углов*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
