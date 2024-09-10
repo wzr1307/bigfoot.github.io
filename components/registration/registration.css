@@ -24,9 +24,21 @@ body {
     height: 320px; /*число выше, блок тянется вниз*/
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    /* Поднимаем блок вверх на 50 пикселей (при необходимости) */
-    margin-top: 153px; /*число выше, блок ниже*/
+    margin-top: 153px; /*высота. число выше, блок ниже*/
 }
+
+.form-input {
+    background: rgba(255,255,255,.2);
+    height: 100px;
+    width: 100%; /* Уменьшаем ширину полей */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
 
 .slide-container {
     transition: transform 0.5s ease-in-out;
@@ -54,16 +66,6 @@ body {
     display: block;
     margin-bottom: 5px;
 }
-
-.form-input {
-    width: 40%; /* Уменьшаем ширину полей */
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f2f2f2; /* Добавляем светло-серый фон полям */
-}
-
-
 
 
 .submit-button {
