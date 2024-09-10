@@ -16,7 +16,7 @@ body {
             rgba(35,43,85,0.75),
             rgba(35,43,85,0.95));
    
-    width: 250px;
+    width: 430px;
     height: 200px; /*число выше, блок тянется вниз*/
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
