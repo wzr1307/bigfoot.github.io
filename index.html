@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="components/registration/registration.css">
 </head>
 <body>
-   <!--<div class="main-container">-->
     <div class="registration-form">
-        <h2>Регистрация. Бигфут привет! </h2>
         <form id="registrationForm">
+            <button type="button" class="sign-in-button active">SIGN IN</button>
+            <button type="button" class="sign-up-button">SIGN UP</button>
             <div class="form-group">
-                <label for="username">Логин:</label>
-                <input type="text" id="username" name="username" class="form-input" required>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" class="form-input">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-input">
             </div>
-            <div class="form-group">
-                <label for="password">Пароль:</label>
-                <input type="password" id="password" name="password" class="form-input" required>
+            <div class="form-group registration-form-hidden">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-input">
             </div>
-            <button type="submit" class="submit-button">Зарегистрироваться</button>
         </form>
-    </div>
+    </div>    
     <script src="js/script.js"></script>
 </body>
 </html>
