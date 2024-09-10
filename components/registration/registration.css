@@ -20,7 +20,7 @@ body {
         linear-gradient(
             rgba(35,43,85,0.75),
             rgba(35,43,85,0.95));
-    width: 275px;/*430*/
+    width: 287px;/*430*/
     height: 375px; /*число выше, блок тянется вниз*/
     border-radius: 5px;/*скругленность углов*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -32,8 +32,7 @@ body {
     width: 80%; /* Уменьшаем ширину полей */
     border-radius: 20px;
     border: none;
-    margin-top: 50px;
-  /*  margin-top: 150px; высота. число выше, блок ниже*/
+    margin-top: 20px;
 }
 
 
