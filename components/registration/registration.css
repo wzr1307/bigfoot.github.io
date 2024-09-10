@@ -1,7 +1,7 @@
 /* registration.css */
 
 body {
-    background-color: #ffffff;
+    background-color: #F5F5DC;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -14,13 +14,12 @@ body {
         linear-gradient(
             rgba(35,43,85,0.75),
             rgba(35,43,85,0.95));
-   
     width: 430px;
     height: 320px; /*число выше, блок тянется вниз*/
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     /* Поднимаем блок вверх на 50 пикселей (при необходимости) */
-    margin-top: 170px; /*число выше, блок ниже*/
+    margin-top: 160px; /*число выше, блок ниже*/
 }
 
 
