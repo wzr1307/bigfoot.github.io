@@ -38,13 +38,15 @@ body {
     width: 80%; /* Уменьшаем ширину полей */
     border-radius: 20px;
     border: none;
-    margin-top: 20px;
- /*   font-size: 16px; */
+    margin-top: 60px;
 }
 
+/* параметры текста параметров) */
 .form-group label {
+    margin-left: -10px;
     font-size: 14px; /* Уменьшаем размер шрифта */
     margin-bottom: 5px; /* Создаем отступ снизу для смещения текста вниз */
+    margin-top: 60px;
 }
 
 
