@@ -56,12 +56,15 @@ body {
 }
 
 .form-input {
-    width: 80%; /* Уменьшаем ширину полей */
+    width: 40%; /* Уменьшаем ширину полей */
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #f2f2f2; /* Добавляем светло-серый фон полям */
 }
+
+
+
 
 .submit-button {
     background-color: #4CAF50;
