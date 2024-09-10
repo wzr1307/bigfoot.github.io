@@ -12,7 +12,7 @@ body {
 .registration-form {
     background-color: #00008b;
     width: 100px;
-    height: 400px;
+    height: 200px; /*число выше, блок тянется вниз*/
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     /* Поднимаем блок вверх на 50 пикселей (при необходимости) */
