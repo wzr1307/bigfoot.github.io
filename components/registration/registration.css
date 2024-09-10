@@ -45,8 +45,8 @@ body {
 .form-group label {
     margin-left: -10px;
     font-size: 14px; /* Уменьшаем размер шрифта */
-    margin-bottom: 5px; /* Создаем отступ снизу для смещения текста вниз */
-    margin-top: 60px;
+  /*  margin-bottom: 5px;  Создаем отступ снизу для смещения текста вниз */
+    margin-top: 130px;
 }
 
 
