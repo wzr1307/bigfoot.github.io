@@ -1,7 +1,11 @@
 /* registration.css */
 
 body {
-    background-color: #F5F5DC;
+    linear-gradient(
+        rgba(246,247,249,0.8),
+        rgba(246,247,249,0.8));
+    
+   /* background-color: #F5F5DC;*/
     color: #fff;
     display: flex;
     justify-content: center;
