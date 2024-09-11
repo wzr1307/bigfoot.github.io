@@ -35,10 +35,9 @@ body {
     align-items: center;
 }
 
-
 .form-input {
     background: rgba(255,255,255,.2);
-    width: 112%; /* Уменьшаем ширину полей */
+    width: 92%;
     border-radius: 20px;
     border: none;
 }
@@ -49,10 +48,15 @@ label {
     text-transform: uppercase;
     font-size: 13px; /* Уменьшаем размер шрифта */
     color: rgba(255,255,255,.7);
-    padding-left: -200px;
+    
+    margin-bottom: 15px; /* Опускаем лейблы вниз */
+    padding-left: 0; /* Убираем отступ слева */
+    text-align: left;
+    
     padding-bottom: 30px;
     display: block;
 }
+
 
 
 
