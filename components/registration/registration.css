@@ -46,8 +46,11 @@ body {
 /* параметры текста параметров) */
 label {
     font-weight: 400;
+    text-transform: uppercase;
     font-size: 13px; /* Уменьшаем размер шрифта */
     color: rgba(255,255,255,.7);
+    padding-left: 15px;
+    padding-bottom: 10px;
     display: block;
 }
 
