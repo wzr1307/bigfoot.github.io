@@ -38,7 +38,7 @@ body {
 
 .form-input {
     background: rgba(255,255,255,.2);
-    width: 92%; /* Уменьшаем ширину полей */
+    width: 112%; /* Уменьшаем ширину полей */
     border-radius: 20px;
     border: none;
 }
