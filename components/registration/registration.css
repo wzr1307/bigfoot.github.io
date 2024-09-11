@@ -16,11 +16,6 @@ body {
 
 /* Параметры блока входа */
 .registration-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     background:
         linear-gradient(
             rgba(35,43,85,0.75),
@@ -50,8 +45,10 @@ body {
 
 /* параметры текста параметров) */
 label {
-    font-size: 14px; /* Уменьшаем размер шрифта */
-    color: #fff;
+    font-weight: 400;
+    font-size: 13px; /* Уменьшаем размер шрифта */
+    color: rgba(255,255,255,.7);
+    display: block;
 }
 
 
