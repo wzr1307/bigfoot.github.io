@@ -28,64 +28,23 @@ body {
 }
 
 
-.form-group {
-    margin: 15px; /* Изменяем отступы */
-    display: flex;
-    flex-direction: column;
-}
 
 .form-input {
     background: rgba(255,255,255,.2);
-    width: 84%;
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
 }
 
-/* параметры текста параметров) */
-label {
-    font-weight: 10;
-    font-size: 13px; /* Уменьшаем размер шрифта */
-    color: rgba(255,255,255,.7);
-    
-    margin-bottom: 5px; /* Опускаем лейблы вниз */
-    padding-left: 0; /* Убираем отступ слева */
-    text-align: left;
-    
-    padding-bottom: 30px;
-    display: block;
-}
-
-
-
-
-.slide-container {
-    transition: transform 0.5s ease-in-out;
-}
-
-.slide-right {
-    transform: translateX(100%);
-}
-
-.slide-left {
-    transform: translateX(0);
-}
-
-
-/*.form-label {
-    display: block;
-    margin-bottom: 5px;
+/*label {
 }*/
+/*
+поля:
+background: rgba(255,255,255,.2);
+
+тексты:
+color: rgba(255,255,255,.7);
+
+*/
 
 
-.submit-button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
 
 
 @media (max-width: 767px) {
