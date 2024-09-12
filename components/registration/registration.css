@@ -15,7 +15,7 @@ a{color:inherit;text-decoration:none}
 
 .login-wrap{ 
    /* width:100%;*/
-    width: 450px;/*430*/
+    width: 600px;/*430*/
     height: 605px; /*число выше, блок тянется вниз*/
     border-radius: 5px;/*скругленность углов*/
     margin-top: 153px; /*высота. число выше, блок ниже*/
